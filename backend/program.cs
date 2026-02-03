@@ -18,6 +18,16 @@ namespace backend
 
             DateTime now = DateTime.Now;
         Console.WriteLine("День недели: " + now.DayOfWeek);
+
+        Console.Write("Продолжить? (y/n): ");
+        string answer = Console.ReadLine();
+        if (answer == "y")
+        {
+            Console.WriteLine("Продолжаем...");
+        }
+        else
+        {
+            Console.WriteLine("Завершено.");
         }
     }
 }
