@@ -15,6 +15,9 @@ namespace backend
             string name = Console.ReadLine();
             
             Console.WriteLine($"\nПривет, {name}!");
+
+            DateTime now = DateTime.Now;
+        Console.WriteLine("День недели: " + now.DayOfWeek);
         }
     }
 }
